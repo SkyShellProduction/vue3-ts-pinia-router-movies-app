@@ -1,0 +1,83 @@
+
+
+.trend__tv {
+    margin-bottom: 60px;
+}
+.trend__movies, .trend__tv, .popular__actors{
+    position: relative;
+    overflow: hidden;
+}
+
+/* .popular__actors-title{
+    display: flex;
+    align-items: center;
+} */
+
+.trend__tv-title::before {
+    display: block;
+    content: '';
+    width: 8px;
+    height: 35px;
+    background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+    border-radius: 50px;
+    margin-right: 11px;
+}
+
+.trend__tv-title>span {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.trend__tv-slider .swiper-button-next {
+    color: #fff;
+}
+
+.trend__tv-slider .swiper-slide:hover {
+    box-shadow: 0 0 10px 1px #26FFF2;
+}
+
+.trend__tv-slider {
+    /* display: flex;
+    align-items: center; */
+    padding-right: 25px;
+}
+.trend__movies {
+    margin-bottom: 100px;
+}
+.trend__tv-slider .swiper-slide{
+    border-radius: 20px;
+    overflow: hidden;
+}
+.trend__movies-slider .swiper-slide img{
+    height: 100%;
+}
+
+
+
+.trend__movies-link {
+    margin-top: 55px;
+    padding: 15px 33px;
+}
+.popular__actors-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular__actors-item img {
+    max-width: 191px;
+}
+
+.popular__actors {
+    margin-bottom: 94px;
+}
+
+.popular__actors-span {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    display: block;
+    margin-top: 22px;
+    color: #FFF;
+}

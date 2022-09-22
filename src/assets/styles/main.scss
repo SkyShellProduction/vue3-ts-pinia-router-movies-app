@@ -1,0 +1,62 @@
+@import './fonts';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Mulish', 'Arial';
+    border: none;
+    outline: none;
+    &:focus{
+        border: none;
+        outline: none;
+    }
+}
+#app{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+img {
+    width: 100%;
+    display: block;
+}
+
+body {
+    background: #000;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.container {
+    max-width: 1540px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.main {
+    padding-top: 100px;
+    flex-grow: 1;
+}
+.icon-reg {
+    font-family: 'FontAwesomeRegular';
+}
+
+.icon-brand {
+    font-family: 'FontAwesomeBrands';
+}
+
+.icon-solid {
+    font-family: 'FontAwesomeSolid';
+}
+@import './header';
+@import './trendtv';
+@import './populargenres';
+@import './movies';
+@import './comingSoonAndReg';
+@import './moviesolo';
+@import './footer';
