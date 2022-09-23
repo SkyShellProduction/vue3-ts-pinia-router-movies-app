@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmovies_app"]=self["webpackChunkmovies_app"]||[]).push([[304],{3304:function(e,s,a){a.r(s),a.d(s,{default:function(){return o}});var n=a(3396),r=a(7139);const t={class:"undefined"};var u=(0,n.aZ)({__name:"ShowError",props:{message:{default:"Возникла ошибка при получении данных"}},setup(e){const s=e;return(e,a)=>((0,n.wg)(),(0,n.iD)("p",t,(0,r.zw)(s.message),1))}});const p=u;var o=p}}]);
+//# sourceMappingURL=304.3f08fb50.js.map
